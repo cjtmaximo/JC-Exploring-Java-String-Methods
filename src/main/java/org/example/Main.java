@@ -23,5 +23,15 @@ public class Main {
         String lower = mixedCase.toLowerCase();
         System.out.println("Uppercase: " + upper);
         System.out.println("Lowercase: " + lower);
+
+        // Exercise 5
+        String sentence = "The quick brown fox jumps over the lazy dog.";
+        int indexOfFox = sentence.indexOf("fox");
+        int indexOfZ = sentence.indexOf("z");
+        int indexOfCat = sentence.indexOf("cat");
+        System.out.println("Index of 'fox': " + indexOfFox); // 16 (first letter 'f' is at index 16)
+        System.out.println("Index of 'z': " + indexOfZ); // 37
+        System.out.println("Index of 'cat': " + indexOfCat); // -1 (not in the string)
+
     }
 }

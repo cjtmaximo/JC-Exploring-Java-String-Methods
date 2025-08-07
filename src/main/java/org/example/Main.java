@@ -45,5 +45,11 @@ public class Main {
         System.out.println("\"Java\".equals(\"java\"): " + isEqual1);
         System.out.println("\"Java\".equals(\"Java\"): " + isEqual2);
         System.out.println("\"Java\".equalsIgnoreCase(\"java\"): " + isEqualIgnoreCase);
+
+        // Exercise 7
+        String original = "I like cats. Cats are cute.";
+        String replaced = original.replace("cats", "dogs");
+        System.out.println("Original: " + original);
+        System.out.println("Replaced: " + replaced);
     }
 }

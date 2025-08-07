@@ -6,5 +6,10 @@ public class Main {
         String greeting = "Hello, Cadets!";
         int length = greeting.length();
         System.out.println("The length of the string is: " + length); // 14
+
+        // Exercise 2
+        String message = "Keep learning!";
+        char character = message.charAt(5);
+        System.out.println("The character at index 5 is: " + character); // l
     }
 }

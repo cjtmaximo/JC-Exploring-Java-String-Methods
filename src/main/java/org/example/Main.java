@@ -33,5 +33,17 @@ public class Main {
         System.out.println("Index of 'z': " + indexOfZ); // 37
         System.out.println("Index of 'cat': " + indexOfCat); // -1 (not in the string)
 
+        // Exercise 6
+        String str1 = "Java";
+        String str2 = "java";
+        String str3 = "Java";
+
+        boolean isEqual1 = str1.equals(str2);
+        boolean isEqual2 = str1.equals(str3);
+        boolean isEqualIgnoreCase = str1.equalsIgnoreCase(str2);
+
+        System.out.println("\"Java\".equals(\"java\"): " + isEqual1);
+        System.out.println("\"Java\".equals(\"Java\"): " + isEqual2);
+        System.out.println("\"Java\".equalsIgnoreCase(\"java\"): " + isEqualIgnoreCase);
     }
 }
